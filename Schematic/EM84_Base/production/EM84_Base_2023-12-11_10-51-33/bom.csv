@@ -1,0 +1,6 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+C1,CP_Radial_D8.0mm_P3.50mm_EM84,1,1000µF 16V,
+"D1, D2",D_SOD-323_HandSoldering,2,1N5819WS,
+"F1, F2",0805,2,T1A,
+J1,EM84_Socket,1,Noval,
+J2,PinSocket_1x03_P2.54mm_Vertical_alt,1,Pin header,

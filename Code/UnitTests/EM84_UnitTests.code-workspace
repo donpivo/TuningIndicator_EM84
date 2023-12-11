@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "EM84_Test01_Measurement"
+		},
+		{
+			"name": "EM84_Test02_OLED",
+			"path": "EM84_Test02_OLED"
+		}
+	],
+	"settings": {}
+}
