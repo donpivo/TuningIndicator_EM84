@@ -403,9 +403,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp d45b718c-6670-4203-8e2d-257c77660d54))
     (fp_line (start 1 0.6) (end -1 0.6)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp bd976f07-461e-410b-8dd9-59cd2b95f998))
-    (pad "1" smd roundrect (at -1.025 0 90) (size 1.15 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.217391)
+    (pad "1" smd roundrect (at -1.025 0 90) (size 1.15 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2173913043)
       (net 3 "F1") (pintype "passive") (tstamp af584989-79c4-4ab1-a819-47b4fce96f59))
-    (pad "2" smd roundrect (at 1.025 0 90) (size 1.15 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.217391)
+    (pad "2" smd roundrect (at 1.025 0 90) (size 1.15 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2173913043)
       (net 5 "Net-(D1-A)") (pintype "passive") (tstamp cb3e8ba8-52d9-4f29-8e86-959df03a7496))
     (model "${KICAD7_3DMODEL_DIR}/Fuse.3dshapes/Fuse_0805_2012Metric.step"
       (offset (xyz 0 0 0))
@@ -458,9 +458,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 3d0b2a1d-6d1a-4306-8c88-83aa03ff5f58))
     (fp_line (start 1 0.6) (end -1 0.6)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 593c12f1-a9d5-4e24-99d4-bf98afde2a92))
-    (pad "1" smd roundrect (at -1.025 0 90) (size 1.15 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.217391)
+    (pad "1" smd roundrect (at -1.025 0 90) (size 1.15 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2173913043)
       (net 4 "F2") (pintype "passive") (tstamp 1ba34249-8296-4e11-89c9-1a8831366da2))
-    (pad "2" smd roundrect (at 1.025 0 90) (size 1.15 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.217391)
+    (pad "2" smd roundrect (at 1.025 0 90) (size 1.15 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2173913043)
       (net 6 "Net-(D2-A)") (pintype "passive") (tstamp cc7db41d-0555-41d7-89de-530b7045f942))
     (model "${KICAD7_3DMODEL_DIR}/Fuse.3dshapes/Fuse_0805_2012Metric.step"
       (offset (xyz 0 0 0))
