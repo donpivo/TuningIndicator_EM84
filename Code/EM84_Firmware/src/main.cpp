@@ -31,10 +31,6 @@ void loop()
   lastAnalogVal=analogVal;
   uint8_t barHeight = (uint8_t)(averageVal*63.0/1023);
   barHeight=barHeight>63?63:barHeight;
-  // barHeight=barHeight<1?1:barHeight;
-  // Serial.print(analogVal);
-  // Serial.print(" ");
-  // Serial.println(averageVal);
   if(barHeight!=lastBarHeight)
   {
     display.clearDisplay();
