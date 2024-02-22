@@ -8,7 +8,7 @@
 #define DISPLAY_HEIGHT 32
 #define DISPLAY_RESET -1 
 #define DISPLAY_ADDRESS 0x3C
-#define PIN_AIN A7
+#define PIN_AIN A6
 
 Adafruit_SSD1306 display(DISPLAY__WIDTH, DISPLAY_HEIGHT, &Wire, DISPLAY_RESET);
 uint8_t lastBarHeight;
@@ -16,6 +16,7 @@ uint16_t lastAnalogVal;
 
 void setup() 
 {
+  delay(1000);
   Serial.begin(115200);
   display.begin(SSD1306_SWITCHCAPVCC, DISPLAY_ADDRESS); 
   Serial.println("EM84.");
@@ -26,9 +27,11 @@ void setup()
 void loop() 
 {
   uint16_t analogVal = analogRead(PIN_AIN);
-  uint16_t averageVal = (uint16_t)(((8.0*lastAnalogVal)+analogVal)/9);
+  uint16_t averageVal = (uint16_t)(((14.0*lastAnalogVal)+analogVal)/15);
   lastAnalogVal=analogVal;
-  uint8_t barHeight = map(averageVal,0,950,0,62);
+  uint8_t barHeight = (uint8_t)(averageVal*63.0/1023);
+  barHeight=barHeight>63?63:barHeight;
+  // barHeight=barHeight<1?1:barHeight;
   // Serial.print(analogVal);
   // Serial.print(" ");
   // Serial.println(averageVal);
